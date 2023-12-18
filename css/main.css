@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    border-radius: 5px;
+    border: solid rgb(225, 225, 225) 2px;
+}
+main #navComic{
+    width: fit-content;
+    margin: auto;
+    padding-top: 5px;
+}
+main #navComic #buttons {
+    border: 0;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main #navComic #buttons li{
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(185, 238, 250);
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+main #navComic #buttons li:hover{
+    background-color: rgb(119, 226, 255);
+    border: solid rgb(26, 26, 26) 2px;
+    margin: 0;
+}
+main #navComic #buttons li:active{
+    border: solid rgb(0, 128, 255) 2px;
+}
+main #navComic #buttons .unactive, main #navComic #buttons .unactive:hover, main #navComic #buttons .unactive:active{
+    background-color: rgb(57, 97, 109);
+    border: 0;
+    margin: 2px;
+    cursor: default;
+}
+#mainComic{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+}
+figure{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 12,5vh;
+}
+figure img{
+    width: inherit;
+}
+#mainComic p{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 0px black, 0px 1px 0px black, -1px 1px 0px black, -1px 0px 0px black, 1px 0px 0px black, 1px -1px 0px black, 0px -1px 0px black, -1px -1px 0px black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main h1{
+    text-align: center;
+}
+html{
+    background-color: rgb(176, 230, 255);
+}
+body{
+    margin: auto;
+    font-family: "Roboto";
+    max-width: 650px;
+}
+footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: medium;
+    background-color: rgb(240, 240, 240);
+    height: fit-content;
+    border-radius: 5px;
+}
